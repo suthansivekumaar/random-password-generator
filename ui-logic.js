@@ -5,7 +5,7 @@ const specialCharacters = [" ","!", '"', "#", "$", "%", "&", "'", "(", ")", "*",
 let lengthDropdown = document.getElementById("password-length");
 let generatedPasswordBtn = document.getElementById("generate-password-btn");
 let generatedPasswordOutput = document.getElementById("generated-password");
-let copyPasswordBtn = document.getElementById("copy-password"); 
+let copyPasswordBtn = document.getElementById("copy-password-btn"); 
 
 generatedPasswordBtn.onclick = function() {
     let length = lengthDropdown.value;
@@ -68,7 +68,6 @@ generatedPasswordBtn.onclick = function() {
         }
         
         generatedPasswordOutput.value = password;
-        console.log(password);
     } else {
         alert("Please select a checkbox before generating.");
     }

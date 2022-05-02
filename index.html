@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h3>Have trouble thinking of a strong password? Use this password generator!</h3>
-    <label for="password-length">Password Length:</label>
+    <img src="lock.png" alt="Password lock" style="display: inline;" width="50px">
+    <h3 style="display: inline;" id="header">Random Password Generator</h3> 
+    <div id="necessary-fields">
+    <label for="password-length" id="password-length-label">Password Length:</label>
     <select name="password-length" id="password-length">
         <option value="6">6</option>
         <option value="7">7</option>
@@ -59,16 +61,20 @@
         <option value="50">50</option>
     </select><br>
     <input type="checkbox" id="lowercase-letters" name="lowercase-letters" value="lowercase">
-    <label for="lowercase-letters">Include lowercase letters (e.g. abc)?</label><br>
+    <label for="lowercase-letters" id="lowercase-letters-label">Include lowercase letters (e.g. abc)?</label><br>
     <input type="checkbox" id="uppercase-letters" name="uppercase-letters" value="uppercase">
-    <label for="uppercase-letters">Include uppercase letters (e.g. ABC)?</label><br>
+    <label for="uppercase-letters" id="uppercase-letters-label">Include uppercase letters (e.g. ABC)?</label><br>
     <input type="checkbox" id="numbers" name="numbers" value="numbers">
-    <label for="numbers">Include numbers (e.g. 123)?</label><br>
+    <label for="numbers" id="numbers-label">Include numbers (e.g. 123)?</label><br>
     <input type="checkbox" id="special-characters" name="special-characters" value="special">
-    <label for="special-characters">Include special characters ( !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ )?</label><br>
+    <label for="special-characters" id="special-characters-label">Include special characters ( !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ )?</label><br>
+    <br><br>
     <button id="generate-password-btn">Generate password</button><br>
-    <label for="generated-password">Your password is:</label>
+    <br>
+    </div>
+    <br>
+    <label for="generated-password" id="generated-password-label">Your password is:</label>
     <input type="text" id="generated-password" name="generated-password" size="50">
-    <button id="copy-password">Copy text</button>
+    <button id="copy-password-btn">Copy text</button>
     </body>
 </html>

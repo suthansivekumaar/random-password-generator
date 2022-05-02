@@ -1,0 +1,99 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+
+#header{
+    font-family: Arial;
+}
+
+#necessary-fields {
+    border-style: solid;
+}
+
+#password-length-label {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#password-length {
+    width: 75px;
+}
+#lowercase-letters-label {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#lowercase-letters {
+    height: 20px;
+    width: 20px;
+    accent-color: blue;
+}
+
+#uppercase-letters-label {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#uppercase-letters {
+    height: 20px;
+    width: 20px;
+    accent-color: blue;
+}
+
+#numbers-label {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#numbers {
+    height: 20px;
+    width: 20px;
+    accent-color: blue;
+}
+
+#special-characters-label {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#special-characters {
+    height: 20px;
+    width: 20px;
+    accent-color: blue;
+}
+
+#generated-password-label {
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#generate-password-btn {
+    font-family: Arial;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+
+#generated-password {
+    width: 500px;
+}
+#copy-password-btn {
+    font-family: Arial;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
